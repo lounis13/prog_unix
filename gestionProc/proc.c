@@ -12,8 +12,6 @@
 void qst1();
 void qst2();
 void qst3();
-
-/* _____main */
 int main(int argc, char const *argv[])
 {
     int choix = atoi(argv[1]);
@@ -119,4 +117,6 @@ void qst3()
     /*attendre les deux fils */
     wait(NULL);
     wait(NULL);
+    
+    
 }
